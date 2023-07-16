@@ -1,77 +1,158 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    background-color: blue;
-} */
-header {
-    background-color: rgb(0, 0, 0);
+* {
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    
 }
 
-.carousel {
-    width: 100%;
-    height: 20px;
-    align-items: center;
+header {
+    background-color: rgb(255, 255, 255);
 }
-.blog {
+
+.contacto {
+    width: 50%;
+    height: 200px;
+    /* align-items: center; */
+    /* display:flex; */
+}
+
+.redes {
+    width: 50%;
+    height: 25px;
+    align-items: center;
+    padding: 10px;
+}
+
+.jumbotron {
     width: 100%;
     margin: auto;
-    height: 200px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    /* width: 50%; */
+    /* background-color: rgb(221, 213, 202); */
+    /* margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        max-width: 500px; */
 }
-.container {
+
+/* .container {
     display: flex;
     /* border: 2px solid black; */
-    background-color: white;
-    /* width: 90%;
-    max-width: 1200px;
-    padding: 40px 0;
-    margin: auto;
-    display: flex;
-    gap: 20px; */
-}
+    background-color: rgb(255, 255, 255);
+    /* width: 90%; */
+    /* max-width: 1200px; */
+    /* padding: 40px 0; */
+    /* margin: auto; */
+    /* gap: 20px; */
+} */
 
-/* .logo {
-        width: 20px;
-        height: 20px;
-    } */
 .text-center {
+    width: 50%;
     text-align: center;
-    }
-/* .item {
-        background-color: red;
-        border:1px solid black ;
-        margin: 5px;
-        padding: 10px; */
 }
 
-/* .card-img-top {
-    width: 150px;
-    height: 250px;
-} */
-/* .card-img-top {
-    max-width: 50px;
-    max-height: 50px;
-} */
-.component {
-    color: var(--bs-gray-800);
-    background-color: var(--bs-gray-100);
-    border: 1px solid var(--bs-gray-200);
-    border-radius: .25rem;
+.box {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    text-align: center;
+    width: 25%;
+    border-radius: 10px;
 }
 
-/* .component-header {
-    color: var(--bs-purple);
-  } */
-/* body {
-    --bs-body-font-family: var(--bs-font-monospace);
-    --bs-body-line-height: 1.4;
-    --bs-body-bg: var(--bs-gray-100);
-  } */
 
-/* .table {
-    --bs-table-color: var(--bs-gray-600);
-    --bs-table-bg: var(--bs-gray-100);
-    --bs-table-border-color: transparent;
-  } */
-/* .nav_list {
+.contenedor {
     display: flex;
-  } */
+    background-color: rgb(255, 255, 255);
+}
+.contenedor__cards {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+.texto {
+    font-size: 5%;
+    height: 150px;
+    /* padding: 20px 0; */
+}
+
+/* .card2 {
+    border-radius: 10px;
+    min-height; 200px;  */
+    /* min-height: 100px; */
+    /* height: 50%; */
+    /* font-weight: bold; */
+    /* padding: 100px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    width: 90%; */
+    /* margin: 1px; */
+    /* flex-direction: column;
+    align-content: center;
+   } */
+.card{
+    border-radius: 10px;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-content: center;
+}
+.texto {
+    font-size: 25px;
+    /* padding: 20px 0; */
+}
+
+.texto .texto_int {
+    font-size: 15px;
+    /* padding: 10px 0; */
+}
+
+.cont__btn {
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cont__btn button {
+    background: #FFD600;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+    .contenedor {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+    }
+    .texto {
+        font-size: 15px;
+    }
+    .texto .texto_int{
+        font-size: 10px;
+    }
+    .cont__btn button {
+        font-size: 10px;
+    }
+    }
+    
+}
+/* .contenedor__banner .cont__btn {
+    display: flex;
+    gap: 10px;
+} */
